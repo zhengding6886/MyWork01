@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录页面</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link type="text/css" href="css/login.css" rel="stylesheet">
+ 
+    <script src="js/base.js"></script>
+</head>
+
+
+<body>
+    <div class="top">
+        <div class="logo"><a href="" target="_self"><img src="images/logo.png" alt=""></a></div>
+    </div>
+
+    <div class="content">
+
+        <div class="login-left"></div>
+
+        <div class="login-right">
+            <div class="login-title">
+                <h2>用户登录</h2>
+            </div>
+
+            
+                <ul>
+                    <li class="form-item">
+
+                        <input class="x-input" type="text" id="txt-name" placeholder="用户名/邮箱地址/手机号" vtype="required"
+                            data-caution="请填写登录帐号">
+                            <span class="error_tip">提示信息</span>
+
+                    </li>
+                    <li class="form-item">
+
+
+                        <input class="x-input" type="password" id="txt-pwd" placeholder="填写密码" vtype="required"
+                            data-caution="请填写密码">
+                        <span class="error_tip">提示信息</span>
+                    </li>
+
+                    <li class="form-item">
+
+                        <input type="checkbox" class="x-check action-remember-account" checked="checked">
+                        <label for="for_remember" class="form-sub-label">记住帐号</label>
+                        <input type="checkbox" name="site_autologin" id="for_auto_signin"
+                            class="x-check action-auto-signin">
+                        <label for="for_auto_signin" class="form-sub-label">两周内自动登录</label>
+
+                    </li>
+                    <li class="form-item-normal">
+
+                        <button type="submit" class="btn-big" id="btn-login"   rel="_request"><span>登　录</span></button>
+                        <a href="findpwd.html">忘记密码？</a>
+
+                    </li>
+                </ul>
+             
+
+            <div class="need-signup">
+                <h3>还不是会员?</h3>
+                <a href="register.html" class="btn-simple">免费注册</a>
+                <div style="clear:both;"></div>
+            </div>
+        </div>
+
+        <div style="clear:both;"></div>
+    </div>
+
+    <div class="footer">
+        <div align="center"> <a href="" target="_blank" title="常见问题">常见问题</a></div><br>
+        <div align="center">
+            <p>当当网版权所有- 京ICP备12002719号</p>
+        </div>
+        <br>
+
+    </div>
+
+</body>
+
+</html>
